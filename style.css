@@ -1,0 +1,42 @@
+.chooser {
+  position: absolute;
+  top: 7px;
+  background-repeat: no-repeat;
+}
+
+#pen {
+  background-image: url("http://images.clipartpanda.com/paintbrush-clip-art-paintbrush-clip-art-8.jpg");
+  left: 30%;
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+
+#eraser {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Pink-eraser.svg/1055px-Pink-eraser.svg.png");
+  right: 30%;
+  width: 70px;
+  height: 70px;
+  background-size: 70px 70px;
+}
+
+table,
+tr,
+td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+table {
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  bottom: 10%;
+}
+
+input {
+  width: 70px;
+  height: 30px;
+}

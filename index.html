@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>PAINT</title>
+  </head>
+
+  <body>
+    <audio id="blop">
+      <source src="http://soundbible.com/mp3/Pling-KevanGC-1485374730.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="woosh">
+      <source src="http://soundbible.com/mp3/Blop-Mark_DiAngelo-79054334.mp3" type="audio/mpeg">
+    </audio>
+    <input type="color" value="#FF0000" id="color">
+    <div onclick="styl(true)" id="pen" class="chooser"></div>
+    <div onclick="styl(false)" id="eraser" class="chooser"></div>
+    <input type="button" value="Clear" style="float:right" id="clearall">
+    <table>
+      <tr>
+        <td id="0" onclick="changecol(0)"></td>
+        <td id="1" onclick="changecol(1)"></td>
+        <td id="2" onclick="changecol(2)"></td>
+        <td id="3" onclick="changecol(3)"></td>
+        <td id="4" onclick="changecol(4)"></td>
+        <td id="5" onclick="changecol(5)"></td>
+      </tr>
+      <tr>
+        <td id="6" onclick="changecol(6)"></td>
+        <td id="7" onclick="changecol(7)"></td>
+        <td id="8" onclick="changecol(8)"></td>
+        <td id="9" onclick="changecol(9)"></td>
+        <td id="10" onclick="changecol(10)"></td>
+        <td id="11" onclick="changecol(11)"></td>
+      </tr>
+      <tr>
+        <td id="12" onclick="changecol(12)"></td>
+        <td id="13" onclick="changecol(13)"></td>
+        <td id="14" onclick="changecol(14)"></td>
+        <td id="15" onclick="changecol(15)"></td>
+        <td id="16" onclick="changecol(16)"></td>
+        <td id="17" onclick="changecol(17)"></td>
+      </tr>
+      <tr>
+        <td id="18" onclick="changecol(18)"></td>
+        <td id="19" onclick="changecol(19)"></td>
+        <td id="20" onclick="changecol(20)"></td>
+        <td id="21" onclick="changecol(21)"></td>
+        <td id="22" onclick="changecol(22)"></td>
+        <td id="23" onclick="changecol(23)"></td>
+      </tr>
+      <tr>
+        <td id="24" onclick="changecol(24)"></td>
+        <td id="25" onclick="changecol(25)"></td>
+        <td id="26" onclick="changecol(26)"></td>
+        <td id="27" onclick="changecol(27)"></td>
+        <td id="28" onclick="changecol(28)"></td>
+        <td id="29" onclick="changecol(29)"></td>
+      </tr>
+      <tr>
+        <td id="30" onclick="changecol(30)"></td>
+        <td id="31" onclick="changecol(31)"></td>
+        <td id="32" onclick="changecol(32)"></td>
+        <td id="33" onclick="changecol(33)"></td>
+        <td id="34" onclick="changecol(34)"></td>
+        <td id="35" onclick="changecol(35)"></td>
+      </tr>
+    </table>
+  </body>
+
+</html>
